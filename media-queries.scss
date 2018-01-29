@@ -1,0 +1,19 @@
+@media screen and (max-width: 1170px){
+  //.exchange{
+  //  flex-direction: column;
+  //}
+  .sum{
+    width: auto;
+    max-width: 384px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .container{
+    padding: 0 20px;
+  }
+  header .container{
+    padding: 30px 20px 0;
+  }
+}
+

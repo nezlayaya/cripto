@@ -1,0 +1,79 @@
+@import "style";
+@import "profile";
+$blueColor: #4b4fe8;
+$darkBlueColor: #32359b;
+$greyColor: #7b7ec2;
+$buttonLightColor: #6468ff;
+$violetColorLight: #b8bdff;
+$inputBg: #e8e9ff;
+$inputText: #878aff;
+
+body{
+  background-color: #eaebff;
+}
+
+.wrapper {
+  background-image: linear-gradient(140deg, #f4f4ff 30%, transparent 30%);
+}
+
+.logo-wrapper .logo{
+  background-image: url("../img/logo-light.png");
+  width: 114px;
+  height: 22px;
+}
+
+.logo-wrapper .night-version-btn{
+  background: transparent url(../img/sun.svg) no-repeat 5% 50%;
+  color: $blueColor;
+}
+
+nav ul a{
+  color: $greyColor;
+  &:hover{
+    color: $darkBlueColor;
+  }
+}
+
+nav button.login{
+  border-color: $blueColor;
+  color: $darkBlueColor;
+  &.sign-up{
+    background-color: $buttonLightColor;
+  }
+}
+
+.content h1,
+.content p{
+  color: $darkBlueColor;
+}
+
+.exchange{
+  background-color: $violetColorLight;
+}
+
+.exchange-btn{
+  background-color: $buttonLightColor;
+}
+
+.sum,
+.wrapper-dropdown{
+  background-color: $inputBg;
+  color: $blueColor;
+}
+
+.sum{
+  color: $inputText;
+}
+
+.wrapper-dropdown .dropdown{
+  background-color: $inputBg;
+  color: $inputText;
+}
+
+.wrapper-dropdown .dropdown li:hover a{
+  color: $blueColor;
+}
+
+.exchange-button{
+  background: transparent url("../img/exchange-light.svg");
+}
